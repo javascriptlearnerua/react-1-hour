@@ -1,8 +1,12 @@
+import Articles from "./Components/Articles/Articles";
 import Header from "./Components/Header/Header";
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Articles />
+    </div>
   );
 }
 
