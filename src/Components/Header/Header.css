@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    padding-right: 20px;
+    border-right: 1px solid #ededed;
+}
+
+.menu>li {
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    font-size: 16px;
+    color: #222;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+}
+
+.login-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: #222;
+    font-size: 15px;
+    padding: 10 16px;
+    background-color: transparent;
+    align-items: center;
+
+}
+
+.sign-up-button {
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 15px;
+    padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+}
